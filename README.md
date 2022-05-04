@@ -1,5 +1,11 @@
 # Amazon_Vine_Analysis
 
+- [Project Overview](#project-overview)
+    - [Resources](#resources)
+- [ETL Process](#etl-process)
+- [Results](#results)
+- [Summary](#summary)
+
 ## Project Overview
 
 The aim of this project is to analyze online reviews within the Amazon Vine program to determine whether a bias exists toward favorable reviews from paid subscribers.<br/>
@@ -40,9 +46,12 @@ Within Spark, we determined the average number of 5-Star reviews for both unpaid
 ![unpaid_review_totals.png](https://github.com/ZeroDarkHardy/Amazon_Vine_Analysis/blob/main/images/unpaid_review_totals.png)
 
 ### Paid Vine member reviews (Totals)
-![paid_review_totals.png](https://github.com/ZeroDarkHardy/Amazon_Vine_Analysis/blob/main/images/unpaid_review_totals.png)
+![paid_review_totals.png](https://github.com/ZeroDarkHardy/Amazon_Vine_Analysis/blob/main/images/paid_review_totals.png)
 
 ### Comparing Averages
 ![unpaid_percentage.png](https://github.com/ZeroDarkHardy/Amazon_Vine_Analysis/blob/main/images/unpaid_percentage.png)
 ![paid_percentage.png](https://github.com/ZeroDarkHardy/Amazon_Vine_Analysis/blob/main/images/paid_percentage.png)
 
+## Summary
+
+We observe a significant difference in the occurance rate of 5-star reviews between the two demographics.  With 51.06% of paid Vine members voting 5-stars (and only 38.70% of unpaid users), there is a clear bias toward positive reviews among the paid membership.
