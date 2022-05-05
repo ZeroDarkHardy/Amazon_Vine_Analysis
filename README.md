@@ -12,7 +12,7 @@ The aim of this project is to analyze online reviews within the Amazon Vine prog
 <br/>
 We used PySpark to build our ETL process and clean our dataset, which we then connected to an AWS RDS (PostgreSQL) instance to house our data.  We then used PgAdmin to design and interact with our PostgreSQL database, extracting data for later testing.<br/>
 <br/>
-The presented dataset contains US reviews for video games, but the ETL framework can be seamlessly to all Amazon Vine review datasets due to their shared schemata.
+The presented dataset contains US reviews for video games, but the ETL framework can be applied seamlessly to all Amazon Vine review datasets due to their shared schemata.
 <br/>
 
 ## Resources
